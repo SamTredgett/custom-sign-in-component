@@ -20,6 +20,9 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+  "jest": {
+    "setupFilesAfterEnv": ["<rootDir>src/setupTests.ts"]
+  },
   "include": [
     "src"
   ]

@@ -31,13 +31,13 @@ interface TEXTFIELDPROPS {
 function TextField(props: TEXTFIELDPROPS) {
     const handleChange = (e: { target: { value: any; }; }) => {
         props.onChange(e.target.value)
-    }
+    };
 
     return (
         <div>
             <div className='group'>
                 {/* Delete label as appropriate for styling */}
-                <label className='form-label' >{props.label}: </label>
+                <label className='form-label' >{props.label} </label>
                 <input 
                 className='form-input'
                 placeholder={props.placeholder} 

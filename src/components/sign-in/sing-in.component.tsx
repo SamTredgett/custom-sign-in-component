@@ -10,6 +10,7 @@ const SignIn = () => {
     const [number, setNumber] = useState(0);
 
     function handleSubmit() {
+        // Hand-off from form to backend happens here:
         alert(`Email: ${email} Password: ${password} Number: ${number}`)
     }
 
